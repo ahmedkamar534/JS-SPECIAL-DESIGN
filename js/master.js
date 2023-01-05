@@ -15,7 +15,7 @@ function bginterval() {
   random = setInterval(() => {
     let randomnumber = Math.floor(Math.random() * 4);
     landing.style.backgroundImage = `url(../JS-SPECIAL-DESIGN/imgs/${imgss[randomnumber]})`;
-  }, 400);
+  }, 10000);
 }
 bginterval();
 
