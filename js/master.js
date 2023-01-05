@@ -14,7 +14,7 @@ function bginterval() {
   imgss = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"];
   random = setInterval(() => {
     let randomnumber = Math.floor(Math.random() * 4);
-    landing.style.backgroundImage = `url(../imgs/${imgss[randomnumber]})`;
+    landing.style.backgroundImage = `url(/JS-SPECIAL-DESIGN/../imgs/${imgss[randomnumber]})`;
   }, 400);
 }
 bginterval();
