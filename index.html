@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js design</title>
+    <link rel="shortcut icon" href="#" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- font awsome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- css main file -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="landing">
+      <div class="text">
+        <h2>We Are <span>Creative </span> Agency</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          odit nihil ullam nesciunt quidem iste
+        </p>
+      </div>
+      <div class="side">
+        <div class="colors">
+          <p>colors</p>
+          <ul>
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#8bc34a"></li>
+            <li data-color="#9c27b0"></li>
+            <li data-color="#2196f3"></li>
+            <li data-color="#e91e63"></li>
+          </ul>
+        </div>
+        <div class="random sele">
+          <p>random background</p>
+          <div>
+            <button data-bg="yes" class="active">yes</button>
+            <button data-bg="no">no</button>
+          </div>
+        </div>
+
+        <div class="reset"></div>
+        <div class="spin"><i class="fa-solid fa-gear"></i></div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold" href="#">Special Design</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto text-white mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gellary">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials"> Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="ab col-lg-7">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis ipsum, tenetur dolores esse magni ratione distinctio!
+              Quod iusto neque fuga, maxime quos nostrum quibusdam dicta
+              deserunt blanditiis non voluptate id
+            </p>
+          </div>
+          <img src="imgs/about-us.jpg" alt="" class="col-sm-12 col-lg-4" />
+        </div>
+      </div>
+    </div>
+    <div class="ourskills" id="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="box">
+          <p>HTML</p>
+          <div><span data-progress="85%"></span></div>
+        </div>
+        <div class="box">
+          <p>CSS</p>
+          <div><span data-progress="70%"></span></div>
+        </div>
+        <div class="box">
+          <p>JS</p>
+          <div><span data-progress="90%"></span></div>
+        </div>
+        <div class="box">
+          <p>bootstrap</p>
+          <div><span data-progress="75%"></span></div>
+        </div>
+        <div class="box">
+          <p>SASS</p>
+          <div><span data-progress="65%"></span></div>
+        </div>
+        <div class="box">
+          <p>REACT</p>
+          <div><span data-progress="80%"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="gellary" id="gellary">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images">
+          <img src="imgs/01.jpg" alt="image one" />
+          <img src="imgs/02.jpg" alt="image two" />
+          <img src="imgs/03.jpg" alt="image three" />
+          <img src="imgs/04.jpg" alt="image four" />
+          <img src="imgs/05.jpg" alt="image five" />
+          <img src="imgs/07.jpg" alt="image six" />
+          <img src="imgs/08.jpg" alt="image seven" />
+          <img src="imgs/09.jpg" alt="image eight" />
+          <img src="imgs/10.jpg" alt="image nine" />
+        </div>
+      </div>
+    </div>
+    <div class="ourfeatures" id="features">
+      <div class="container">
+        <h2>Our Features</h2>
+        <div class="row">
+          <div class="box col-lg-4">
+            <img src="imgs/advertising.svg" alt="" />
+            <h3>Development</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="box col-lg-4">
+            <img src="imgs/graphic-design.svg" alt="" />
+            <h3>Marketing</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="box col-lg-4">
+            <img src="imgs/hosting-icon.svg" alt="" />
+            <h3>Hosting</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="box col-lg-4">
+            <img src="imgs/mobile-app.svg" alt="" />
+            <h3>Mobile Develope</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="box col-lg-4">
+            <img src="imgs/programming.svg" alt="" />
+            <h3>Cloud and Servers</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+          <div class="box col-lg-4">
+            <img src="imgs/web-design.svg" alt="" />
+            <h3>Seo</h3>
+            <p>
+              We are professional marketeers, we will do anything you imagine in
+              no time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials" id="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="row justify-content-space-evenly">
+          <div class="box col-lg-3">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <h3>Ahmed Mosaad</h3>
+            <span>CEO At Company</span>
+          </div>
+          <div class="box col-lg-3">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <h3>Mohamed Ibrahim</h3>
+            <span>CEO At Company</span>
+          </div>
+          <div class="box col-lg-3">
+            <p>
+              Iam very happy with the product its amazing and i recieve it very
+              fast and the price was amazing.
+            </p>
+            <h3>Sherief Ashraf</h3>
+            <span>CEO At Company</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="pop"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="inputs col-lg-6">
+            <input type="text" placeholder="username" name="user" />
+            <input type="number" placeholder="your phone" name="phone" />
+            <input type="email" placeholder="your email" name="email" />
+            <input type="text" placeholder="subject" name="subject" />
+          </div>
+          <div class="textariaa col-lg-5">
+            <textarea
+              name="text"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="your message..."></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Created By Ahmed Kamar</div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/master.js"></script>
+  </body>
+</html>
